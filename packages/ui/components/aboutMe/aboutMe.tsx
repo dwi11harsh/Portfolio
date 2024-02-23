@@ -1,5 +1,6 @@
+"use client";
 import Image from "next/image";
-import { logo } from "../../public";
+import { coderLogo } from "../../";
 import { TextGenerateEffect } from "../text-generate-effect";
 
 export const AboutMe = () => {
@@ -12,7 +13,7 @@ export const AboutMe = () => {
               <TextGenerateEffect words="Hi, I'm Prabhat Dwivedi" />
             </div>
             <div className="flex items-center justify-center mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              <TextGenerateEffect words="I'm a passionate and creative web developer with a love for clean code and elegant user interfaces." />
+              <TextGenerateEffect words="Full-Stack developer with experience in building an end-to-end web application and interest in ML." />
             </div>
           </div>
         </div>
@@ -23,7 +24,7 @@ export const AboutMe = () => {
                 alt="Avatar"
                 className="object-cover rounded-xl"
                 height="400"
-                src={logo}
+                src={coderLogo}
                 style={{
                   aspectRatio: "400/400",
                   objectFit: "cover",
@@ -38,7 +39,7 @@ export const AboutMe = () => {
                 alt="Avatar"
                 className="object-cover rounded-t-xl"
                 height="200"
-                src={logo}
+                src={coderLogo}
                 style={{
                   aspectRatio: "400/200",
                   objectFit: "cover",
