@@ -1,9 +1,12 @@
 export * from "./components/navbar";
-export * from "./components/aboutMe";
+export * from "./components/about-me-card";
 export * from "./components/text-generate-effect";
 export * from "./components/floating-nav";
-export * from "./components/3d-card";
+export * from "./components/experience-card";
+export * from "./components/tech-stack-card";
 
 export * from "./utils/cn";
 
 export * from "./public";
+
+export * from "./components/tech-stack-card/tech-stack";

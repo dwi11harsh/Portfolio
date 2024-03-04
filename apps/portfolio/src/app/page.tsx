@@ -3,7 +3,7 @@ import {
   ExperienceCard,
   FloatingNavbar,
   Navbar,
-  ThreeDCardDemo,
+  TechStack,
 } from "@/packages/ui";
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       <FloatingNavbar />
       <Navbar />
       <AboutMe />
+      <TechStack />
       <ExperienceCard />
     </main>
   );
