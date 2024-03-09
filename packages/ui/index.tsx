@@ -10,3 +10,7 @@ export * from "./utils/cn";
 export * from "./public";
 
 export * from "./components/tech-stack-card/tech-stack";
+
+export * from "../store";
+
+export * from "../types";
