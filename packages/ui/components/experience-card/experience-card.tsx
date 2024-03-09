@@ -8,7 +8,7 @@ import Link from "next/link";
 export const ExperienceCard = () => {
   return (
     <>
-      <div className="w-2/3 p-10">
+      <div className="md:w-2/3 p-10">
         <CardContainer className="inter-var w-full py-6 md:py-12 lg:py-10">
           <CardBody className="flex flex-col bg-gray-50 relative group/card border border-black/[0.1] h-auto rounded-xl p-6 dark:border-white/[0.2]">
             <CardItem
