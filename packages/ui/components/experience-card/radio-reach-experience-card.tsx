@@ -26,6 +26,7 @@ export const RadioReachExperienceCard = () => {
                   src="/radioreach.svg"
                   width={800}
                   height={400}
+                  priority
                 />
               </CardItem>
               <CardItem

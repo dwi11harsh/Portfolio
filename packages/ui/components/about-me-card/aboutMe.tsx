@@ -27,6 +27,7 @@ export const AboutMe = () => {
                 className=""
                 height="600"
                 src="/aboutme.svg"
+                priority
                 style={{
                   aspectRatio: "400/400",
                   objectFit: "cover",

@@ -17,7 +17,6 @@ export default function Home() {
       <TechStack />
       <MusicMonitorExperienceCard />
       <RadioReachExperienceCard />
-      <ProjectsCard />
     </main>
   );
 }

@@ -26,6 +26,7 @@ export const MusicMonitorExperienceCard = () => {
                   src="/musicmonitor.svg"
                   width={400}
                   height={400}
+                  priority
                 />
               </CardItem>
               <CardItem
