@@ -12,7 +12,10 @@ export const AboutMe = () => {
               <TextGenerateEffect words="Hi, I'm Prabhat Dwivedi" />
             </div>
             <div className="flex items-center justify-center mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              <TextGenerateEffect words="Full-Stack developer with experience in building an end-to-end web application and interest in ML." />
+              <TextGenerateEffect
+                className="mb-2"
+                words="Full-Stack developer with experience in building an end-to-end web application and interest in ML."
+              />
             </div>
           </div>
         </div>
@@ -22,13 +25,13 @@ export const AboutMe = () => {
               <Image
                 alt="Avatar"
                 className=""
-                height="400"
-                src={coderLogo}
+                height="600"
+                src="/aboutme.svg"
                 style={{
                   aspectRatio: "400/400",
                   objectFit: "cover",
                 }}
-                width="400"
+                width="600"
               />
             </div>
           </div>
@@ -37,8 +40,8 @@ export const AboutMe = () => {
               <Image
                 alt="Avatar"
                 className="object-cover rounded-t-xl"
-                height="200"
-                src={coderLogo}
+                height="400"
+                src="/aboutme.svg"
                 style={{
                   aspectRatio: "400/200",
                   objectFit: "cover",
