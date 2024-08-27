@@ -1,9 +1,11 @@
 import {
   AboutMe,
-  ExperienceCard,
+  MusicMonitorExperienceCard,
   FloatingNavbar,
   Navbar,
+  ProjectsCard,
   TechStack,
+  RadioReachExperienceCard,
 } from "@/packages/ui";
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
       <Navbar />
       <AboutMe />
       <TechStack />
-      <ExperienceCard />
+      <MusicMonitorExperienceCard />
+      <RadioReachExperienceCard />
+      <ProjectsCard />
     </main>
   );
 }

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { experienceLogo } from "../..";
 import Link from "next/link";
 
-export const ExperienceCard = () => {
+export const MusicMonitorExperienceCard = () => {
   return (
     <>
       <div className="md:w-2/3 p-10">
@@ -23,7 +23,7 @@ export const ExperienceCard = () => {
                 <Image
                   alt="experience logo"
                   className="rounded-xl group-hover/card:shadow-xl"
-                  src={experienceLogo}
+                  src="/musicmonitor.svg"
                   width={400}
                   height={400}
                 />
@@ -34,11 +34,13 @@ export const ExperienceCard = () => {
                 translateZ="50"
               >
                 <div>
-                  ● Built a dashboard web application end to end and deployed
-                  it.
+                  ● Engineered and deployed a dashboard app processing over
+                  100,000 data entries, directly contributing to a successful
+                  funding round for the client.
                 </div>
                 <div>
-                  ● Used{" "}
+                  ● Reduced build times by 30% and improved code management
+                  efficiency by 25% using{" "}
                   <Link
                     href="https://turbo.build/"
                     className="underline underline-offset-1"
@@ -47,10 +49,11 @@ export const ExperienceCard = () => {
                   >
                     Turborepo
                   </Link>{" "}
-                  to structure the project into a monorepo.
+                  for monorepo structuring.
                 </div>
                 <div>
-                  ● Used{" "}
+                  ● Increased design productivity by 40% and reduced stylesheet
+                  size by 60% using{" "}
                   <Link
                     href="https://tailwindcss.com/"
                     className="underline underline-offset-1"
@@ -58,11 +61,11 @@ export const ExperienceCard = () => {
                     rel="noopener noreferrer"
                   >
                     Tailwind CSS
-                  </Link>{" "}
-                  to style the frontend.
+                  </Link>
+                  .
                 </div>
                 <div>
-                  ● Incorporated{" "}
+                  ● Boosted user engagement by 20% through the integration of{" "}
                   <Link
                     href="https://developers.google.com/maps"
                     className="underline underline-offset-1"
@@ -71,47 +74,24 @@ export const ExperienceCard = () => {
                   >
                     Google Maps API
                   </Link>{" "}
-                  and used simple chart from d3.js in frontend.
+                  and d3.js for dynamic data visualization.
                 </div>
                 <div>
-                  ● Used{" "}
+                  ● Cut query costs by over 40% and increased query speed by 25%
+                  by developing a custom module with{" "}
                   <Link
-                    href="https://nextjs.org/docs/pages/building-your-application/routing"
+                    href="https://node-postgres.com/api/pool"
                     className="underline underline-offset-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    NextJS APIs
+                    pg-pool
                   </Link>{" "}
-                  for backend
+                  for Redshift DB.
                 </div>
                 <div>
-                  ● Used{" "}
-                  <Link
-                    href="https://www.prisma.io/"
-                    className="underline underline-offset-1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Prisma
-                  </Link>{" "}
-                  to store user's credentials in mongodb.
-                </div>
-                <div>
-                  ● Built a simple ORM of my own as I was unable to find any
-                  that could work perfectly with{" "}
-                  <Link
-                    href="https://aws.amazon.com/redshift/"
-                    className="underline underline-offset-1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Redshift DB
-                  </Link>{" "}
-                  as that is where the data was stored by the client.
-                </div>
-                <div>
-                  ● Developed a CI/CD pipeline using git and{" "}
+                  ● Reduced deployment time by 50% and minimized server downtime
+                  by 30% through CI/CD integration with{" "}
                   <Link
                     href="https://github.com/"
                     className="underline underline-offset-1"
@@ -120,14 +100,14 @@ export const ExperienceCard = () => {
                   >
                     GitHub
                   </Link>{" "}
-                  to deploy the project in an{" "}
+                  and deployment on{" "}
                   <Link
                     href="https://aws.amazon.com/pm/ec2/"
                     className="underline underline-offset-1"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    AWS ec2 instance
+                    AWS EC2
                   </Link>
                   .
                 </div>
