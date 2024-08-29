@@ -5,6 +5,7 @@ export * from "./components/floating-nav";
 export * from "./components/experience-card";
 export * from "./components/tech-stack-card";
 export * from "./components/projects-card";
+export * from "./components/contact-me";
 
 export * from "./utils/cn";
 

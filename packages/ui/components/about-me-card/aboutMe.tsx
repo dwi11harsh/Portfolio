@@ -26,7 +26,7 @@ export const AboutMe = () => {
                 alt="Avatar"
                 className=""
                 height="600"
-                src="/aboutme.svg"
+                src="/stressed.svg"
                 priority
                 style={{
                   aspectRatio: "400/400",

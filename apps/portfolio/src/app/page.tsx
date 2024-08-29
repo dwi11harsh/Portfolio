@@ -1,11 +1,12 @@
+// Updated page.tsx
 import {
   AboutMe,
   MusicMonitorExperienceCard,
   FloatingNavbar,
   Navbar,
-  ProjectsCard,
   TechStack,
   RadioReachExperienceCard,
+  ContactMe,
 } from "@/packages/ui";
 
 export default function Home() {

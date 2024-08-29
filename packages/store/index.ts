@@ -3,3 +3,4 @@ export * from "./database-tech-stack";
 export * from "./devops-tech-stack";
 export * from "./front-end-tech-stack";
 export * from "./projects-list";
+export * from "./navbar-options";
